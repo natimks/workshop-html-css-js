@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero {
+    width: 42%;
+    display: flex;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #00baf5;
+    background-image: linear-gradient(#009ee3, #00caff);
+}
+
+.hero__logo {
+    margin: auto;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 5rem;
+    background-color: #f5f8f9;
+}
+
+.login__title {
+    line-height: 44px;
+    margin-bottom: 32px;
+    color: rgba(0, 8, 38, 0.8);
+}
+
+.login__form {
+    max-width: 400px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,146 @@
+/* NAV HEADER */
+.nav-header {
+  background-color: #FFF;
+  height: 60px;
+  max-width: 1920px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/* OFFERS LIST */
+.offers-list {
+  width: 35%;
+  margin: 0 auto;
+  min-width: 500px;
+}
+
+.offers-list__title {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+
+/* OFFER */
+.offer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  height: 60px;
+}
+
+.offer__tags {
+  margin-bottom: 1.5rem;
+}
+
+.offer__values {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+
+/* OFFER VALUE */
+.offer-value {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f5f7f9;
+  border-radius: 8px;
+  color: #898e9c;
+}
+
+.offer-value > label {
+  margin-bottom: .375rem;
+}
+
+.offer-value > p {
+  color: #898e9c;
+  font-weight: bold;
+  margin: 0;
+}
+
+.offer-value--featured {
+  background-color: #e7f3f9;
+}
+
+.offer-value--featured > label {
+  color: #5c667a;
+}
+
+.offer-value--featured > p {
+  color: #2e364f;
+}
+
+.offer-value +
+.offer-value {
+  margin-left: 1rem;
+}
+
+
+/* DISCOUNT BADGE */
+.discount-badge {
+  display: flex;
+  align-items: center;
+  color: #6a7081;
+  width: 150px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.discount-badge__value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 60px;
+  height: 60px;
+  margin-left: .5rem;
+  background-image: url('../images/badge.svg');
+  background-size: contain;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+/* OFFER DETAILS */
+.offer-details {
+  margin-bottom: 1rem;
+  background-color: #fafcfd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.offer-details__list {
+  padding: 1rem 1.5rem;
+  margin: 0;
+}
+
+.offer-details__list > dt {
+  display: block;
+  margin: 1rem 0 .5rem;
+  color: rgba(0, 8, 38, 0.44);
+}
+
+.offer-details__list > dd {
+  margin: 0;
+  color: rgba(0, 8, 38, 0.6);
+  font-weight: bold;
+}
+
+.offer-details__more {
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  width: 100%;
+  border: 0;
+  background-color: #f7f9fa;
+  text-align: left;
+  color: rgba(0, 8, 38, 0.8);
+  background-image: url('../images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+

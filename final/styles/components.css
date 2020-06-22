@@ -1,0 +1,93 @@
+/* BUTTON */
+.button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  line-height: 24px;
+  width: 100%;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+}
+
+.button--primary {
+  background-color: #4ea802;
+  color: #FFF;
+}
+
+
+/* INPUT */
+.input {
+  padding: 1.25rem 1rem;
+  border: 1px solid rgba(0, 8, 38, 0.16);
+  border-radius: 10px;
+}
+
+.input::placeholder {
+  color: #c4c8d0;
+  font-size: 1rem;
+}
+
+
+/* FORM */
+.form__submit {
+  margin-top: 1.5rem;
+}
+
+
+/* FORM-FIELD */
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field__label {
+  color: rgba(0, 8, 38, 0.6);
+  padding-bottom: 1rem;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+/* CARD */
+.card {
+  padding: 1rem;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+
+/* TAG */
+.tag {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: #e6eaee;
+  border-radius: 1rem;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #5b6276;
+}
+
+.tag--debt {
+  background-color: #f7e9ec;
+  color: #d6103b;
+}
+
+.tag + .tag {
+  margin-left: .5rem;
+}
+
+
+/* LINK */
+
+.link {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 8, 38, 0.6);
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
